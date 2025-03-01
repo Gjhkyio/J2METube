@@ -116,7 +116,6 @@ public class Settings implements Constants {
 		try {
 			langsList = new Vector();
 			langsList.addElement(new String[] { "en", "English", "", "Built-in"});
-			langsList.addElement(new String[] { "ru", "Russian", "Русский", "Built-in"});
 			InputStreamReader isr = new InputStreamReader("".getClass().getResourceAsStream("/jtindex"), "UTF-8");
 			boolean skipLine = false;
 			StringBuffer tmp = new StringBuffer();
