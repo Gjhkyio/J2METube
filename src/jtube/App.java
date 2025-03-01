@@ -535,7 +535,7 @@ public class App implements Constants, Runnable, CommandListener {
 				break;
 			}
 			case 2: {
-				Util.platReq("https://next.2yxa.mobi/mov.php?id=" + id + "&poisk=you" + (Locale.localei != 1 ? "&lang=en" : ""));
+				Util.platReq("http://j2me.gjhkyioprojects.serv00.net/vplay.php?id=" + id : ""));
 				break;
 			}
 			case 3: {
@@ -716,7 +716,7 @@ public class App implements Constants, Runnable, CommandListener {
 			inst.ui.openVideo(url);
 		} else if(url.startsWith("youtube.com") || 
 				url.startsWith("iteroni.com") || 
-				url.startsWith("invidious.snopyta.org")) {
+				url.startsWith("inv.nadeko.net")) {
 			int i = url.indexOf('/');
 			if(i == -1)
 				throw new IllegalArgumentException();
