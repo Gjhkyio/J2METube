@@ -535,7 +535,7 @@ public class App implements Constants, Runnable, CommandListener {
 				break;
 			}
 			case 2: {
-				Util.platReq("http://j2me.gjhkyioprojects.serv00.net/vplay.php?id=" + id : ""));
+				Util.platReq("http://j2me.gjhkyioprojects.serv00.net/vplay.php?v=" + id : ""));
 				break;
 			}
 			case 3: {
